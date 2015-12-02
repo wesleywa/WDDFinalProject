@@ -48,16 +48,31 @@
 	position: relative;
 }
 #name-section{
-	background-color: #2bde73;
+	background-color: #323232;
 }
-#major-section{
-	background-color: #8bb2af;
+#event-section{
+	background-color: #999999;
 }
-#fact-section{
+#second-event-section{
+	background-color: #b2b2b2;
+}
+#third-event-section {
+	background-color: #cccccc;
+}
+#video-section{
 	background-color: #fff;
 }
 #fact-text{
 	color: black;
+
+}
+
+.event-picture {
+	position: relative;
+	display: inline-block;
+	height: 80%;
+	margin: 5% 0%;
+	margin-left: 4.5%;
 }
 
 /* DOCUMENT SET UP */
@@ -184,6 +199,53 @@ a {
     -webkit-transition: all 0.3s;
 }
 
+.about {
+	position: relative;
+	font-size: 32px;
+	color: white;
+	letter-spacing: 1px;
+	margin-left: 250px;
+	top: 10%;
+}
+
+.about-us {
+	position: relative;
+	font-size: 64px;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 2px;
+	margin-left: 250px;
+	top: 12.5%;
+}
+
+.about-text {
+	position: relative;
+	letter-spacing: 1px;
+	line-height: 48px;
+	color: white;
+	font-size: 24px;
+	margin-left: 300px;
+	margin-right: 300px;
+	top: 14%;
+}
+
+.video-pic {
+	position: absolute;
+	height: 85%;
+	left: 27.5%;
+	top: 12%;
+}
+
+.events {
+	position: absolute;
+	top: 2.5%;
+	left: 5%;
+	color: white;
+	font-size: 32px;
+	letter-spacing: 3px;
+	font-weight: 600;
+}
+
 /* Styling for the quotes and text in each section */
 .quote, .text {
 	position: absolute;
@@ -200,7 +262,7 @@ a {
 .picture {
 	position: absolute;
 	width: 100%;
-	top: -180px;
+	height: 100%;
 }
 
 /* Styling for the author text in each quote */
